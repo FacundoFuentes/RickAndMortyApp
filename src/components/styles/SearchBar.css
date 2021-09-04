@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #AAE9E5;
+    border: 1px solid RGB(43, 140 , 68);
+    color: black;
+    padding: 7px 8px;
+}
+
+.button:hover{
+    color: #AAE9E5;
+    background-color: black;
+    border: 1px solid RGB(52, 58 , 64);
+    cursor: pointer;
+}
+
+.inputContainer{
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 10px;
+    border: none;
+}
+
+.inputContainer:focus{
+    outline: none;
+}
