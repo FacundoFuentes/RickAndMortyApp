@@ -7,7 +7,6 @@ import img from "../../media/images/me.png";
 export default function AboutMe() {
   return (
     <>
-
       <div className="about-container">
         <div className="outer-border">
           <img className="myImg" src={img} alt="Not found" />
@@ -15,17 +14,21 @@ export default function AboutMe() {
             <div className="about-me-text">
               <h1 className="inline hola-text">Hola, </h1>
               <p className="inline">
-                Mi nombre es Facundo, actualmente me encuentro en el camino de
-                formarme como Fullstack Developer en{" "}
+                Mi nombre es Facundo, estudio Ciencias de la Computación en la
+                Universidad Nacional de Córdoba, Argentina. Actualmente me encuentro en el
+                camino de formarme como Fullstack Developer en{" "}
                 <strong>
-                  <a className="a-soyhenry" href="https://www.soyhenry.com" target="_blank">
+                  <a
+                    className="a-soyhenry"
+                    href="https://www.soyhenry.com"
+                    target="_blank"
+                  >
                     SoyHenry
                   </a>
-                </strong>
-                . Estudio Ciencias de la Computación en la Universidad Nacional
-                de Córdoba. Esta página la desarrollé con Javascript y React
-                como proyecto personal para potenciar mi aprendizaje, para
-                afianzar los conocimientos que vengo adquiriendo en el Bootcamp
+                </strong>{". "}
+                Esta página la desarrollé con Javascript y React como proyecto
+                personal para potenciar mi aprendizaje, para afianzar los
+                conocimientos que vengo adquiriendo en el Bootcamp
               </p>
             </div>
             <div className="social-media">
