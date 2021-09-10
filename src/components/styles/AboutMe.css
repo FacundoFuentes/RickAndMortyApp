@@ -1,0 +1,86 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF8561;
+  height: 550px;
+  border-left: 5px solid rgb(26, 23, 23);
+  border-right: 6px solid rgb(26, 23, 23);
+}
+
+.myImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  left: 100px;
+  top: 70px;
+  
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin-left: 20px;
+}
+
+.about-me-text{
+    border: 2px solid rgb(26, 23, 23);
+    padding: 10px;
+    border-radius: 5px; 
+    margin-top: 30px;
+}
+
+.hola-text{
+    display: inline;
+    text-align: left;
+}
+
+.inline{
+    display: inline;
+}
+
+.outer-border{
+    display: flex;
+    border: 3px solid rgb(26, 23, 23);
+    padding: 10vh;
+}
+
+.a-soyhenry{
+    color: #CC5404;
+    text-decoration: underline;
+}
+.a-soyhenry:visited{
+    color: rgb(26, 23, 23);
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a-links:link{
+    color: rgb(26, 23, 23);
+}
+.a-links:visited{
+    color: rgb(26, 23, 23);
+}
+.a-links-twitter-me:hover{
+    color: #00acee ;
+}
+.a-links-instagram-me:hover{
+    color: #bc2a8d ;
+}
+.a-links-linkedin-me:hover{
+    color: #0e76a8 ;
+}

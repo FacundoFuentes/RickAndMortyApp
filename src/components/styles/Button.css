@@ -27,6 +27,7 @@
     padding: 8px 20px;
     border: 1px solid #FF8561;
     transition: all 0.3s ease-out;
+    width: 285px;
 }
 .btn--outline-color2 {
     background-color: #AAE9E5;
@@ -34,6 +35,7 @@
     padding: 8px 20px;
     border: 1px solid #AAE9E5;
     transition: all 0.3s ease-out;
+    width: 285px;
 }
 
 .btn--medium{

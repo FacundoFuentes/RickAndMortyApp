@@ -6,16 +6,16 @@
 
 .button {
     border-radius: 5px;
-    background-color: #AAE9E5;
-    border: 1px solid RGB(43, 140 , 68);
-    color: black;
+    background-color: #5cada8;
+    border: 1px solid #AAE9E5;
+    color: #AAE9E5;
     padding: 7px 8px;
 }
 
 .button:hover{
-    color: #AAE9E5;
-    background-color: black;
-    border: 1px solid RGB(52, 58 , 64);
+    color: #5cada8;
+    background-color: #AAE9E5;
+    border: 1px solid #5cada8;
     cursor: pointer;
 }
 

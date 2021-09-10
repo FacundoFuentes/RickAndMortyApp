@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Services from './components/pages/Services.jsx';
 import Home from './components/pages/Home.jsx';
 import SignUp from './components/pages/SignUp.jsx';
-import Products from './components/pages/Products.jsx';
+import AboutMe from './components/pages/AboutMe.jsx';
 import SingleCharacter from './components/pages/SingleCharacter.jsx'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Switch>
         <Route exact component={Home} path='/'/>
         <Route path='/services' component={Services} />
-        <Route path='/products' component={Products} />
+        <Route path='/about' component={AboutMe} />
         <Route path='/sign-up' component={SignUp} />
         <Route path='/single-character' component={SingleCharacter} />
       </Switch>

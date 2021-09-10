@@ -7,7 +7,7 @@
 
 .home,
 .services,
-.products,
+.aboutMe,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -25,8 +25,10 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url('./media/images/fondo-rickmort-2.jpg');
+.aboutMe {
+  color: #FF8561;
+  -webkit-text-stroke: 1px black;
+  background-image: url('./media/images/fondo-rickmort-3.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,5 +45,10 @@
 }
 .single-character{
   color: #FF8561;
-  -webkit-text-stroke: 1px black
+  -webkit-text-stroke: 1px black;
+  background-image: url('./media/images/fondo-rickmort-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 100px;
 }

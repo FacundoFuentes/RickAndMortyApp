@@ -55,11 +55,11 @@ const NavBar = () => {
                             </li>
                             <li>
                                 <Link to='/sign-up' className={colorChange ? 'nav-links-mobile-color2' : 'nav-links-mobile'} onClick={closeMobileMenu}>
-                                Registrarse
+                                <i class="fab fa-github"></i>
                                 </Link>
                             </li>
                         </ul>
-                        {button && <Button buttonStyle={colorChange ? 'btn--outline-color2' : 'btn--outline'} buttonSize='btn--large' path={'/register'}>REGISTRARSE</Button>}
+                        {button && <Button buttonStyle={colorChange ? 'btn--outline-color2' : 'btn--outline'} buttonSize='btn--large' path={'/register'}><i class="fab fa-github"></i></Button>}
                     </div>
                 </nav>
             </>
