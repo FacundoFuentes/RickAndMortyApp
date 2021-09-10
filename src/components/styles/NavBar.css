@@ -109,6 +109,14 @@
   display: none;
 }
 
+.a-links-navbar:link{
+  color: #FF8561;
+}
+.a-links-navbar:visited{
+  color: #FF8561;
+}
+
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
