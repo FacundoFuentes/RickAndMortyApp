@@ -15,7 +15,7 @@ function HeroSection() {
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' path={'single-character'}>
                     BUSCA UN PERSONAJE
                 </Button>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' path={'/sign-up'}>
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' path={'/trailer'}>
                     TRAILER <i className='far fa-play-circle' ></i>
                 </Button>
             </div>

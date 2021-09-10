@@ -3,7 +3,7 @@ import '../../App.css'
 import YoutubeEmbed from '../YoutubeEmbed'
 import Footer from '../Footer.jsx'
 
-export default function SignUp() {
+export default function Trailer() {
     return (
     <>
         <YoutubeEmbed embedId={'Tm7dFM_v57A'}/>
