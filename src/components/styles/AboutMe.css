@@ -6,6 +6,7 @@
   height: 550px;
   border-left: 5px solid rgb(26, 23, 23);
   border-right: 6px solid rgb(26, 23, 23);
+  
 }
 
 .myImg {
@@ -23,7 +24,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 800px;
     margin-left: 20px;
 }
 
@@ -46,7 +46,9 @@
 .outer-border{
     display: flex;
     border: 3px solid rgb(26, 23, 23);
+    width: 95%;
     padding: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .a-soyhenry{
@@ -57,7 +59,7 @@
     color: rgb(26, 23, 23);
 }
 
-.social-media{
+.social-media-me{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -83,4 +85,38 @@ a {
 }
 .a-links-linkedin-me:hover{
     color: #0e76a8 ;
+}
+
+@media screen and (max-width: 960px){
+    .outer-border{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 500px;
+    }
+    .myImg{
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+    }
+        
+    }
+@media screen and (max-width: 768px){
+    .myImg{
+        display: none;
+    }
+    .hola-text{
+        display: none;
+    }
+    .about-me-text{
+        height: 400px;
+        width: 200px;
+    }
+    .social-media-me{
+        width: 200px;
+    }
+    .text-container{
+        margin: 0;
+    }
 }

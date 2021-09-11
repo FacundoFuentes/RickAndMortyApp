@@ -8,7 +8,8 @@
 .home,
 .services,
 .aboutMe,
-.sign-up {
+.sign-up,
+.single-character {
   display: flex;
   height: 90vh;
   align-items: center;

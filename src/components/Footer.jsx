@@ -49,13 +49,13 @@ function Footer() {
                 <small className="website-rights">Ⓒ 2021</small>
                 <div className="social-icons">
                     <NavLink className="social-icon-link instagram" to='/' target='_blank' aria-label='Instagram'>
-                      <a className='a-links a-links-instagram' href="https://www.instagram.com/facufuentes_" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                      <a className='a-links a-links-instagram-me' href="https://www.instagram.com/facufuentes_" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
                     </NavLink>
                     <NavLink className="social-icon-link twitter" to='/' target='_blank' aria-label='Twitter'> 
-                    <a className='a-links a-links-twitter' href="https://twitter.com/facufuentes_" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>    
+                    <a className='a-links a-links-twitter-me' href="https://twitter.com/facufuentes_" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>    
                     </NavLink>
                     <NavLink className="social-icon-link linkedin" to='/' target='_blank' aria-label='LinkedIn'> 
-                    <a className='a-links a-links-linkedin' href="https://www.linkedin.com/in/facundo-fuentes/" target="_blank" rel="noopener noreferrer">
+                    <a className='a-links a-links-linkedin-me' href="https://www.linkedin.com/in/facundo-fuentes/" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-linkedin"></i>
                     </a>
                     </NavLink>

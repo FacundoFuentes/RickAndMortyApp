@@ -9,6 +9,7 @@ export default function AboutMe() {
     <>
       <div className="about-container">
         <div className="outer-border">
+          <div className='test-div'></div>
           <img className="myImg" src={img} alt="Not found" />
           <div className="text-container">
             <div className="about-me-text">
@@ -31,7 +32,7 @@ export default function AboutMe() {
                 conocimientos que vengo adquiriendo en el Bootcamp
               </p>
             </div>
-            <div className="social-media">
+            <div className="social-media-me">
               <NavLink
                 className="social-icon-link instagram"
                 to="/"
