@@ -71,10 +71,10 @@ a {
     text-decoration: none;
 }
 
-.a-links:link{
+.a-links-me:link{
     color: rgb(26, 23, 23);
 }
-.a-links:visited{
+.a-links-me:visited{
     color: rgb(26, 23, 23);
 }
 .a-links-twitter-me:hover{

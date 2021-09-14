@@ -41,7 +41,7 @@ export default function AboutMe() {
                 aria-label="Instagram"
               >
                 <a
-                  className="a-links a-links-instagram-me"
+                  className="a-links-me a-links-instagram-me"
                   href="https://www.instagram.com/facufuentes_"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -56,7 +56,7 @@ export default function AboutMe() {
                 aria-label="Twitter"
               >
                 <a
-                  className="a-links a-links-twitter-me"
+                  className="a-links-me a-links-twitter-me"
                   href="https://twitter.com/facufuentes_"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -71,7 +71,7 @@ export default function AboutMe() {
                 aria-label="LinkedIn"
               >
                 <a
-                  className="a-links a-links-linkedin-me"
+                  className="a-links-me a-links-linkedin-me"
                   href="https://www.linkedin.com/in/facundo-fuentes/"
                   target="_blank"
                   rel="noopener noreferrer"
