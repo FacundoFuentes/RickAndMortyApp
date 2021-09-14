@@ -1,5 +1,4 @@
 .cards {
-    padding: 4rem;
     background: #AAE9E5;
   }
   
@@ -39,7 +38,7 @@
     display: flex;
     padding: 10px;
     border-radius: 10px;
-    width: 350px;
+    /* width: 350px; */
   }
   
 
@@ -116,7 +115,7 @@
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
-    width: 300px;
+    /* width: 270px; */
     height: 100px;
   }
   

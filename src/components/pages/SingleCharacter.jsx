@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import '../../App.css'
 import CardsSingle from '../CardsSingle'
+import '../styles/SingleCharacter.css'
 
 export default function Product() {
 
@@ -30,7 +31,7 @@ export default function Product() {
 
 
     return (
-    <div>
+    <div className='container-single-char'>
         <h1 className='products single-character'>BUSCA UN PERSONAJE POR ID</h1>
         <CardsSingle character={character} onSearch={onSearch} onClose={onClose}/>
     </div>
