@@ -9,7 +9,7 @@ function CardsSingle({character, onSearch, onClose}) {
     if (character)
     return (
         <div className='cards'>
-            <h1 className='h1-cards-single'>Utiliza la barra de busqueda</h1>
+            {/* <h1>Utiliza la barra de busqueda</h1> */}
             <SearchBar onSearch={onSearch}/>
             <div className="cards__container">
                 <div className="cards__wrapper">
