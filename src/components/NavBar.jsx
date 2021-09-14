@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { Button } from "./Button.jsx";
 import "./styles/NavBar.css";
 
 const NavBar = () => {
@@ -69,6 +68,7 @@ const NavBar = () => {
             </li>
             <li>
             <a
+              rel="noreferrer"
               className={colorChange ? "nav-links-mobile-color2" : "nav-links-mobile"}
               href="https://github.com/FacundoFuentes/RickAndMortyApp"
               target="_blank"
@@ -80,6 +80,7 @@ const NavBar = () => {
           </ul>
           {button && (
             <a
+              rel="noreferrer"
               className={colorChange ? "nav-links-color2" : "nav-links"}
               href="https://github.com/FacundoFuentes/RickAndMortyApp"
               target="_blank"

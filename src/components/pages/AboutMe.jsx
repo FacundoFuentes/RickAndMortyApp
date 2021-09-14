@@ -20,6 +20,7 @@ export default function AboutMe() {
                 camino de formarme como Fullstack Developer en{" "}
                 <strong>
                   <a
+                    rel="noreferrer"
                     className="a-soyhenry"
                     href="https://www.soyhenry.com"
                     target="_blank"
